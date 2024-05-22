@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
+  
+  p {
+    font-family: fantasy;
+    line-height: 1 px;
+  }
+
+
+  ol, ul {
+    list-style: disc;
+    list-style-position: inside;
+  }

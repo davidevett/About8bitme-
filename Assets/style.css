@@ -1,0 +1,221 @@
+@font-face {
+    font-family: jacquard12;
+    src: url(./fonts/Jacquard12-Regular.ttf);
+}
+
+:root {
+    --dark: black;
+
+}
+
+
+body {
+    background-color: rgb(0, 0, 0);
+    background-image: url(./pictures/1000_F_551003884_DOW8atOFUsXgTmj5ROYx1l9LLu0ZkFlp.jpg);
+}
+
+header {
+    border-radius: 5px;
+    padding: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./pictures/mountain-lake-evening-sunset-landscape-ai-generated-8bit-pixel-game-scene-vector-background-mountain-valley-forest-with-.jpg);
+}
+
+
+
+.title {
+    float: left;
+    text-align: left;
+    font-family: jacquard12;
+    font-size: 70px;
+    position: relative;
+    bottom: 3rem;
+    right: 2rem;
+    color: aquamarine;
+    text-shadow: 6px 9px 3px rgba(190, 92, 0, 0.821);
+}
+
+#profile-pic {
+    border-radius: 50px;
+    width: 8rem;
+    position: relative;
+    bottom: 3rem;
+}
+
+nav ul {
+    text-align: right;
+    position: relative;
+    top: 2rem;
+    left: 3rem;
+}
+
+nav ul li {
+    font-size: 35px;
+    font-family: jacquard12;
+    margin: 15px;
+    display: inline;
+    border-radius: 50px;
+    text-shadow: 1px 1px 21px rgb(255, 255, 255);
+}
+
+nav ul li>a {
+    color: black;
+    font-weight: bolder;
+
+}
+
+nav ul li {
+    transition: all .15s ease-in-out;
+}
+
+
+nav ul li:hover {
+    box-shadow: inset 0px 5px 20px rgb(0, 231, 211), 0px 0px 15px rgb(0, 0, 0)
+}
+
+main {
+    display: flex;
+    height: 200%;
+    margin: 5px;
+    padding: 50px;
+    background-color: rgba(133, 246, 208, 0.693);
+    border-radius: 5px;
+}
+
+aside {
+    width: 25%;
+    border-right: 6px dotted black;
+}
+
+aside>h2 {
+    padding: 25px;
+    font-family: jacquard12;
+    font-size: 35px;
+    text-shadow: 1px 2px 5px rgb(97, 97, 97);
+}
+
+#about-me-title {
+    position: relative;
+    top: 1rem;
+}
+
+#projects-title {
+    position: relative;
+    top: 4rem;
+}
+
+#info-title {
+    position: relative;
+    top: 31rem;
+}
+
+#comments-title {
+    position: relative;
+    top: 35rem;
+}
+
+.content {
+    width: 85%;
+    display: inline
+}
+
+.content h3 {
+    padding: 25px;
+    font-family: jacquard12;
+    font-size: 35px;
+    text-shadow: 1px 2px 5px rgb(97, 97, 97);
+}
+
+#paragragh {
+    padding: 20px;
+    background-image: linear-gradient(to bottom right, rgba(129, 129, 129, 0.555), rgba(183, 0, 211, 0.664), rgb(205, 205, 205), rgba(46, 46, 46, 0.615));
+    border-radius: 5px;
+    margin: 20px;
+}
+
+
+#screenshot {
+    width: 58rem;
+    transition: all .05s ease-in-out;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+#screenshot {
+    transition: all .08s ease-in-out;
+}
+
+#screenshot:hover {
+    box-shadow: inset 0px 0px 8px rgb(0, 0, 0), 0px 0px 25px rgb(208, 0, 245);
+}
+
+#info {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 20px;
+}
+
+#info article {
+    width: 200px;
+    text-align: center;
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom right, rgba(129, 129, 129, 0.563), rgba(183, 0, 211, 0.481), rgb(205, 205, 205));
+}
+
+#info article>p {
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: jacquard12;
+}
+
+#comments {
+    background-image: linear-gradient(to bottom right, rgba(129, 129, 129, 0.645), rgba(183, 0, 211, 0.689), rgb(205, 205, 205), rgba(46, 46, 46, 0.558));
+    border-radius: 5px;
+    margin: 40px;
+}
+
+footer {
+    border-radius: 5px;
+    padding: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./pictures/mountain-lake-evening-sunset-landscape-ai-generated-8bit-pixel-game-scene-vector-background-mountain-valley-forest-with-.jpg);
+}
+
+#button-box {
+    font-family: jacquard12;
+    text-align: center;
+    color: dark;
+    text-shadow: 1px 1px 22px white;
+    font-size: 25px;
+}
+
+button {
+    transition: all .08s ease-in-out;
+}
+
+button:active {
+    box-shadow: inset 0px 5px 20px rgb(0, 231, 211), 0px 0px 15px rgb(0, 0, 0)
+}
+
+@media screen and (max-width: 1250px) {
+    #screenshot {
+        width: 50rem;
+    }
+    aside>h2 {
+        right: 15px;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    #screenshot {
+        width: 15rem;
+    }
+    aside>h2 {
+        right: 60px;
+        font-size: 25px;
+    }
+}
